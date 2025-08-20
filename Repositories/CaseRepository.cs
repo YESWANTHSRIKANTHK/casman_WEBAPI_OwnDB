@@ -36,7 +36,7 @@ namespace casman_WEBAPI.Repositories
                 parameters
             );
         }
-
+        //For git changes checking
         // ✅ Get indemnifiers using EF Core ORM style
         public async Task<List<IndemnifierDto>> GetIndemnifiersAsync()
         {
