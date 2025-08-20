@@ -4,9 +4,7 @@
 
     namespace casman_WEBAPI.Models
     {
-    /// <summary>
-    /// 
-    /// </summary>
+  
         public class CaseDbContext : DbContext
         {
         public CaseDbContext(DbContextOptions<CaseDbContext> options) : base(options) { }
