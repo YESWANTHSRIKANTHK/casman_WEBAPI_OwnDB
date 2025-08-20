@@ -1,0 +1,6 @@
+@casman_WEBAPI_HostAddress = http://localhost:5171
+
+GET {{casman_WEBAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
